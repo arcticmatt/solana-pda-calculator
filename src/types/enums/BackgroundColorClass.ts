@@ -17,6 +17,7 @@ enum BackgroundColorClass {
   RedHover = "backgroundColorRedHover",
   Secondary = "backgroundColorSecondary",
   Tertiary = "backgroundColorTertiary",
+  TwitterBlue = "backgroundColorTwitterBlue",
   White = "backgroundColorWhite",
   Yellow = "backgroundColorYellow",
 }

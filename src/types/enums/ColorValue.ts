@@ -17,6 +17,7 @@ enum ColorValue {
   RedHover = "#dd1111",
   Secondary = "#838383",
   Tertiary = "#e1e1e1",
+  TwitterBlue = "#1DA1F2",
   White = "#ffffff",
   Yellow = "#ffbb37",
 }

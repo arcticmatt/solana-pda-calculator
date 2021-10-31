@@ -70,6 +70,10 @@
   background-color: var(--color-tertiary);
 }
 
+.backgroundColorTwitterBlue {
+  background-color: var(--color-twitterBlue);
+}
+
 .backgroundColorWhite {
   background-color: var(--color-white);
 }

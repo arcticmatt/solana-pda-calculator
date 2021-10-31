@@ -70,6 +70,10 @@
   color: var(--color-tertiary);
 }
 
+.colorTwitterBlue {
+  color: var(--color-twitterBlue);
+}
+
 .colorWhite {
   color: var(--color-white);
 }

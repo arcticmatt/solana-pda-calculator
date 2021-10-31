@@ -17,6 +17,7 @@ enum ColorClass {
   RedHover = "colorRedHover",
   Secondary = "colorSecondary",
   Tertiary = "colorTertiary",
+  TwitterBlue = "colorTwitterBlue",
   White = "colorWhite",
   Yellow = "colorYellow",
 }
