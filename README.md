@@ -1,3 +1,3 @@
-Reusable template for Next.js projects.
+# solana-pda-calculator
 
-Sets up TypeScript and eslint.
+A simple tool for finding PDAs. Built with Next.js.
