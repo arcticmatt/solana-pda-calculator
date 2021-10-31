@@ -2,6 +2,8 @@
 
 A simple tool for finding PDAs. Built with Next.js.
 
+Check out the website at pdafinder.com.
+
 You can test it out with these examples:
 
 - Program ID: 2zHwAYnZeN8gip3j6HkU5nvKpraVaFJSXfGLZb4FFWE6
