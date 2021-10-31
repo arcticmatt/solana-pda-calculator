@@ -26,7 +26,7 @@ export default function Home() {
       <ResponsiveContainer>
         <div className={styles.containerInner}>
           <Header1 colorClass={ColorClass.Primary} textAlign="center">
-            Solana PDA Finder
+            Solana PDA Finder 🤔
           </Header1>
           <Body1
             className={styles.description}
@@ -51,7 +51,13 @@ export default function Home() {
             textAlign="center"
           >
             To test it out, try using
-            <ul style={{ marginTop: 2, textAlign: "left" }}>
+            <ul
+              style={{
+                marginTop: 2,
+                textAlign: "left",
+                wordBreak: "break-all",
+              }}
+            >
               <li>Program ID = 2zHwAYnZeN8gip3j6HkU5nvKpraVaFJSXfGLZb4FFWE6</li>
               <li>Seeds = base_account</li>
             </ul>
