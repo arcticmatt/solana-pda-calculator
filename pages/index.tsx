@@ -1,3 +1,10 @@
+import ResponsiveContainer from "src/components/ResponsiveContainer";
+import styles from "@/css/Home.module.css";
+
 export default function Home() {
-  return <div>Hi</div>;
+  return (
+    <ResponsiveContainer>
+      <div className={styles.containerInner}>Hi</div>
+    </ResponsiveContainer>
+  );
 }
