@@ -9,6 +9,7 @@ import FontClass from "src/types/enums/FontClass";
 import Footer from "src/components/Footer";
 
 export default function Home() {
+  const [programId, setProgramId] = useState<string>("");
   const [seeds, setSeeds] = useState<string>("");
 
   return (
@@ -25,14 +26,23 @@ export default function Home() {
           >
             A tool for finding Solana PDAs (program derived addresses).
           </Body1>
-          <div className={styles.inputAndButton}>
-            <input
-              className={joinClasses(styles.input, FontClass.Body1)}
-              onChange={(e) => setSeeds(e.target.value)}
-              placeholder="seed1,seed2,..."
-              type="text"
-              value={seeds}
-            />
+          <div className={styles.inputsAndButton}>
+            <div className={styles.inputs}>
+              <input
+                className={joinClasses(styles.input, FontClass.Body1)}
+                onChange={(e) => setProgramId(e.target.value)}
+                placeholder="Program ID"
+                type="text"
+                value={programId}
+              />
+              <input
+                className={joinClasses(styles.input, FontClass.Body1)}
+                onChange={(e) => setSeeds(e.target.value)}
+                placeholder="seed1,seed2,..."
+                type="text"
+                value={seeds}
+              />
+            </div>
             <button
               className={joinClasses(styles.button, FontClass.Body1)}
               type="button"

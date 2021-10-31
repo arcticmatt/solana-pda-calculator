@@ -1,5 +1,5 @@
 .button {
-  padding: 4px 12px;
+  align-self: stretch;
 }
 
 .containerInner {
@@ -22,20 +22,26 @@
 }
 
 .input {
-  flex-grow: 1;
   padding: 4px 12px;
 }
 
-.inputAndButton {
+.inputs {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  row-gap: 20px;
+}
+
+.inputsAndButton {
   align-items: center;
-  column-gap: 20px;
+  column-gap: 12px;
   display: flex;
   margin-top: 32px;
-  width: 400px;
+  width: 500px;
 }
 
 @media only screen and (max-width: 640px) {
-  .inputAndButton {
+  .inputsAndButton {
     width: 300px;
   }
 }
