@@ -2,7 +2,7 @@
 
 A simple tool for finding PDAs. Built with Next.js.
 
-Check out the website at pdafinder.com.
+Check out the website at [pdafinder.com](pdafinder.com).
 
 You can test it out with these examples:
 
