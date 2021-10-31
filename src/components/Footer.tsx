@@ -14,6 +14,19 @@ export default function Footer(): JSX.Element {
           <TwitterIcon colorValue={ColorValue.TwitterBlue} />
         </span>
       </Body2>
+      <Body2
+        className={styles.madeBy}
+        colorClass={ColorClass.Secondary}
+        textAlign="center"
+      >
+        <a
+          className={styles.grayLink}
+          href="https://github.com/arcticmatt/solana-pda-calculator"
+        >
+          View the source code
+        </a>
+        <img className={styles.github} src="/github.svg" alt="Github" />
+      </Body2>
       <Body2 colorClass={ColorClass.Secondary} textAlign="center">
         <a className={styles.grayLink} href="https://twitter.com/pencilflip">
           Hmu

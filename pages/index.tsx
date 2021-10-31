@@ -14,10 +14,8 @@ import Results from "src/components/Results";
 import LoadingSpinner from "src/components/loading/LoadingSpinner";
 
 export default function Home() {
-  const [programId, setProgramId] = useState<string>(
-    "2zHwAYnZeN8gip3j6HkU5nvKpraVaFJSXfGLZb4FFWE6"
-  );
-  const [seeds, setSeeds] = useState<string>("base_account");
+  const [programId, setProgramId] = useState<string>("");
+  const [seeds, setSeeds] = useState<string>("");
   const [errorMessage, setErrorMessage] = useState<Maybe<string>>(null);
   const [pda, setPda] = useState<Maybe<string>>(null);
   const [bump, setBump] = useState<Maybe<number>>(null);
