@@ -1,5 +1,11 @@
 .button {
   align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--color-secondary);
+}
+
+.button:hover {
+  cursor: pointer;
 }
 
 .containerInner {
@@ -27,7 +33,7 @@
 }
 
 .help {
-  margin-top: 12px;
+  margin-top: 16px;
   max-width: 600px;
 }
 

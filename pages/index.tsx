@@ -45,6 +45,17 @@ export default function Home() {
             thing—don&apos;t enter the bump! It will be calculated
             automatically.
           </Body2>
+          <Body2
+            className={styles.help}
+            colorClass={ColorClass.Secondary}
+            textAlign="center"
+          >
+            To test it out, try using
+            <ul style={{ marginTop: 2, textAlign: "left" }}>
+              <li>Program ID = 2zHwAYnZeN8gip3j6HkU5nvKpraVaFJSXfGLZb4FFWE6</li>
+              <li>Seeds = base_account</li>
+            </ul>
+          </Body2>
           <div className={styles.inputsAndButton}>
             <div className={styles.inputs}>
               <input
