@@ -14,6 +14,7 @@
 .value {
   max-width: 500px;
   overflow-wrap: anywhere;
+  word-break: break-all;
 }
 
 @media only screen and (max-width: 900px) {
