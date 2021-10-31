@@ -14,7 +14,7 @@ import Head from "next/head";
 import { AppProps } from "next/app";
 
 const META_DESCRIPTION =
-  "A tool for easily find PDAs (program derived addresses)";
+  "A tool for easily finding Solana PDAs (program derived addresses). In other words, a PDA calculator!";
 
 function App({ Component, pageProps }: AppProps): JSX.Element {
   return (
